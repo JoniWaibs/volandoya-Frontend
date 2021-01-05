@@ -24,11 +24,11 @@ const Header = () => {
                             <i className="fab fa-instagram text-gray-200 mx-2 text-base md:text-2xl bg-green-800 p-3 rounded shadow-xl"></i>
                         </div>
                     </div>
-                    <p className="text-gray-800 text-sm md:text-base py-1 md:py-2">Pizzas caseras amasadas en el dia. Cocinamos con amor, ese es nuestro secreto. </p>
+                    <p className="text-gray-800 text-sm md:text-base py-1 md:py-2 truncate">Pizzas caseras amasadas en el dia. Cocinamos con amor, ese es nuestro secreto. </p>
                     <p className="text-gray-600 text-xs md:text-base py-1 md:py-2"><i className="fas fa-map-marker-alt text-gray-600 pr-1"></i>Primera Junta 2780 Santa Fe Argentina</p>
                     <div className="flex py-2">
-                        <p className="mr-3 text-sm md:text-base bg-gray-300 px-3 py-1 rounded text-green-800 "><i class="fas fa-store-alt text-green-800 mr-2"></i>Take Away</p>
-                        <p className="mr-3 text-sm md:text-base bg-gray-300 px-3 py-1 rounded text-green-800"><i class="fas fa-truck text-green-800 mr-2"></i>Delivery: $50</p>
+                        <p className="mr-3 text-sm md:text-base bg-gray-300 px-3 py-1 rounded text-green-800 "><i className="fas fa-store-alt text-green-800 mr-2"></i>Take Away</p>
+                        <p className="mr-3 text-sm md:text-base bg-gray-300 px-3 py-1 rounded text-green-800"><i className="fas fa-truck text-green-800 mr-2"></i>Delivery: $50</p>
                     </div>
                 </div>
             </div>                
