@@ -5,7 +5,7 @@ import Avatar from '../../Assets/Media/home.jpeg'
 
 const Header = () => {
     return (
-        <div className="relative">
+        <div className="relative w-full">
             <div className="h-36 md:h-64 bg-gray-400 overflow-hidden">
                 <img src={Pizza} alt="Pizza" className="cover"/>
             </div>

@@ -34,8 +34,8 @@ const Signin = () => {
     return (
         <div className="h-screen bg-gradient-to-b from-green-400 to-green-900 md:flex">
 
-            <div className="w-96 mx-auto md:w-2/5 md:m-0 h-full py-10 md:py-2 md:px-8">
-                <div className="rounded shadow bg-white p-4">
+            <div className="w-96 md:w-2/5 mx-auto md:mx-0 my-auto py-20 md:py-0">
+                <div className="rounded shadow bg-white p-4 md:w-4/5 mx-auto ">
                     <div className="text-center my-2">
                         <img src={Logo} alt="volandoya" className="block mx-auto w-54"/>
                         <h2 className="text-2xl my-4">Registrate, <span className="text-green-900 font-bold">es gratis</span></h2>
@@ -113,7 +113,7 @@ const Signin = () => {
                 </div>
             </div>
 
-            <div className="hidden md:block">
+            <div className="hidden md:block w-3/5 my-auto">
                 <Benefits/>
             </div>
 
