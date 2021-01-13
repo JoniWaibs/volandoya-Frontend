@@ -4,6 +4,7 @@ import SubNav from '../../Extras/SubNav'
 import FirstCard from './FirstCard'
 import SecondCard from './SecondCard'
 import ThirdCard from './ThirdCard'
+import FourthCard from './FourthCard'
 
 const ProfileCatalogue = () => {
     return (
@@ -11,8 +12,10 @@ const ProfileCatalogue = () => {
             <NavBar/>
             <SubNav/>
             <FirstCard/>
+            <FourthCard/>
             <SecondCard/>
             <ThirdCard/>
+
         </div>
     )
 }
